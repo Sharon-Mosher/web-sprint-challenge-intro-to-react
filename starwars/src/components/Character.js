@@ -28,7 +28,6 @@ const Character = (props) => {
             hair_color={character.hair_color}
             height={character.height}
             mass={character.mass}
-            // films={character.films}
           />
         );
       })}

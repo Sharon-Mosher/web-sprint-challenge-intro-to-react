@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import Character from "./components/Character";
 import styled from "styled-components";
@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <Card className="App">
-      <h1 className="Header">Characters</h1>
+      <h1 className="Header">May The Force Be With You!!</h1>
       <Character />	     
     </Card>
   );
